@@ -13,23 +13,13 @@ class CfgFunctions
 			};
 			class zeus {
 				preInit = 1;
-			};
+			};	
 			class reInit {};
 			class postInit {};
 			class Menu {};
 			class Menu_HC {};
 			class Menu_Const {};
 			class varInit {};
-		};
-		class cheats 
-		{
-			file = "AIO_AIMENU\functions\cheats";
-			class teleport {};
-			class arsenal {};
-			class reduceDamage {};
-			class addAmmo {};
-			class fullHeal {};
-			class addEHs {};
 		};
 		class menu
 		{
@@ -49,7 +39,6 @@ class CfgFunctions
 			class createMagsMenu {};
 			class slingLoadObjs {};
 			class createTargetMenu {};
-			class createCheatsMenu {};
 			class createExplosivesMenu {};
 			class createSupportMenu_HC {};
 		};

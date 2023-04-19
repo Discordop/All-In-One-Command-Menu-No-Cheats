@@ -59,9 +59,7 @@
 ["AIO_useVoiceChat", "CHECKBOX", "Use radio chat for reporting", ["All-In-One Command Menu", "Initialization"] ,true, 0] call CBA_Settings_fnc_init;
 ["AIO_copyExactStance", "CHECKBOX", ["Use Exact Copy Stance", "Units follow the exact stance of player, including intermediate ones"], ["All-In-One Command Menu", "Initialization"] ,true, 0] call CBA_Settings_fnc_init;
 ["AIO_useNumpadKeys", "LIST", ["Menu selection mode", "Choose the prefered method for selecting menu items"], ["All-In-One Command Menu", "Initialization"] ,[[false, true], ["Numeric Keys", "Numeric and Numpad Keys"], 0], 0] call CBA_Settings_fnc_init;
-["AIO_useVanillaMenus", "CHECKBOX", ["Use Vanilla Menus", "Uses vanilla menus in the Root Menu instead of Custom ones"], ["All-In-One Command Menu", "Initialization"] ,false, 0] call CBA_Settings_fnc_init;
-["AIO_enableCheats", "CHECKBOX", ["Enable Cheats", "Enables the cheats menu"], ["All-In-One Command Menu", "Initialization"], true, 1, {AIO_Cheats_Enabled_STR = ["0", "1"] select AIO_enableCheats}, false] call CBA_Settings_fnc_init;
-
+["AIO_useVanillaMenus", "CHECKBOX", ["Use Vanilla Menus", "Uses vanilla menus in the Root Menu instead of Custom ones"], ["All-In-One Command Menu", "Initialization"] ,false, 0] call CBA_Settings_fnc_init;	
 //medic
 ["AIO_autoMedicEnabled", "CHECKBOX", "Enable Auto-Medic", ["All-In-One Command Menu", "Medic"] ,false, 0] call CBA_Settings_fnc_init;
 ["AIO_showMedicIcon", "CHECKBOX", "Show the medic icon when player is wounded", ["All-In-One Command Menu", "Medic"] ,true, 0] call CBA_Settings_fnc_init;

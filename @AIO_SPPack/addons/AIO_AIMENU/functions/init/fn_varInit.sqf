@@ -26,7 +26,6 @@ if (isNil "AIO_support_arty") then {AIO_support_arty = objNull};
 if (isNil "AIO_support_cas_bomb") then {AIO_support_cas_bomb = objNull};
 if (isNil "AIO_support_trans") then {AIO_support_trans = objNull};
 if (isNil "AIO_support_requester") then {AIO_support_requester = objNull};
-if (isNil "AIO_damageCheat") then {AIO_damageCheat = 0};
 if (isNil "AIO_enableSuperPilot") then {AIO_enableSuperPilot = false};
 if (isNil "AIO_FixedWatchDir") then {AIO_FixedWatchDir = false};
 if (isNil "AIO_copyMyStance") then {AIO_copyMyStance = false};
@@ -54,7 +53,6 @@ if (isNil "AIO_Ranks_PIC") then {
 };
 
 AIO_Zeus_Enabled_STR = ["0", "1"] select AIO_Zeus_Enabled;
-AIO_Cheats_Enabled_STR = ["0", "1"] select AIO_enableCheats;
 
 AIO_monitoring_disabled = false;
 AIO_Advanced_Ctrl = false;
